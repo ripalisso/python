@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+
+{% block content %}
+   <p><a href="/create/" class="linkum" >Cadastro de Usuários</a></p>
+    <p><a href="/painel/" class="linkum" >Painel de login</a></p>
+    <style type="text/css">
+    a.linkum:link {
+        color:#ff0000;
+        text-decoration:none;
+      }
+      a.linkum:visited {
+        color:#999999;
+        text-decoration:none;
+      }
+      a.linkum:hover {
+        color:#000000;
+        text-decoration:underline;
+      }
+      a.linkum:active {
+        color:#00ff00;
+        text-decoration:underline;
+        background-color:#000000;
+      }
+      
+    </style>
+    
+{% endblock %}
